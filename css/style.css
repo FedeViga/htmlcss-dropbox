@@ -30,6 +30,7 @@ section {
 
 h2 {
     margin-bottom: 36px;
+    font-size: 2em;
 }
 
 
@@ -117,8 +118,9 @@ header {
 
 /* prima section */
 h1 {
-    font-size: 2.8em;
+    font-size: 4em;
     font-weight: 800;
+    margin-bottom: 30px;
 }
 
 .check {
@@ -201,13 +203,16 @@ section:nth-of-type(2) .container .text {
 
 /* quarta section  */
 .square {
-    height: 340px;
-    width: 340px;
+    height: calc(100vw / 3);
+    width: calc(100vw / 3);
     flex-wrap: wrap;
 
     border: 2px dashed red;
 }
 
+h3 {
+    font-size: 2em;
+}
 section:nth-of-type(4) .text {
     flex-grow: 1;
 
@@ -219,9 +224,25 @@ section:nth-of-type(4) .text {
     border: 2px dashed red;
 }
 
+#cta {
+    background-color: #B4D0E7;
+}
+
 #cta .container {
-    padding: 70px 0px;
+    padding: 150px 0px;
     justify-content: space-between;
+}
+
+.freetrial {
+    width: 400px;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.freetrial .button {
+    margin-top: 12px;
+
+    border: 2px dashed red;
 }
 /* fine quarta section  */
 
@@ -260,6 +281,9 @@ footer .flex {
     margin-bottom: 10px;
 }
 
+h5 {
+    font-size: 1em;
+}
 .lang {
     display: inline-block;
     border-top: 2px solid gray;
