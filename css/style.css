@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    max-width: 570px;
+    max-width: 1000px;
     margin: auto;
 
     /* test */
@@ -24,6 +24,8 @@ body {
 
 section {
     margin-bottom: 84px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 h2 {
@@ -86,7 +88,7 @@ header {
 }
 
 #hero {
-    max-width: 678px;
+    max-width: 1200px;
     margin: auto;
     padding-top: 60px;
     padding-left: 10px;
@@ -96,17 +98,23 @@ header {
 #hero .flex {
     gap: 18px;
 }
+
 /* test */
 #hero > * {
     border: 2px dashed red;
 }
+
+#hero-description {
+    width: 500px;
+    flex-grow: 1;
+
+    /* test */
+    height: 400px;
+}
+
 /* fine header */
 
 /* prima section */
-section:nth-of-type(1) {
-    margin-bottom: 84px;
-}
-
 h1 {
     font-size: 2.8em;
     font-weight: 800;
@@ -135,12 +143,12 @@ label {
 
 section:nth-of-type(1) .flex {
     width: 100%;
-    justify-content: space-between;
+    gap: 28px;
     margin-bottom: 28px;
 }
 
 .column {
-    width: 172px;
+    width: calc(100% / 3 - 28px / 3 * 2);
 
     /* test */
     border: 2px dashed red;
@@ -153,7 +161,7 @@ section:nth-of-type(1) .flex {
 
     /* test */
     border: 2px dashed red;
-    height: 145px;
+    height: 300px;
 }
 /* fine prima section */
 
@@ -168,11 +176,11 @@ section:nth-of-type(2) .container > * {
     border: 2px dashed red;
 }
 section:nth-of-type(2) .container .image{
-    width: 100%;
+    flex-grow: 1;
 }
 
 section:nth-of-type(2) .container .text {
-    width: 200px;
+    width: 10px;
 }
 
 /* fine seconda section */
@@ -191,21 +199,21 @@ section:nth-of-type(2) .container .text {
     flex-direction: column;
 
     /* test */
-    height: 260px;
+    height: 500px;
     border: 2px dashed red;
 }
 
 .tools .image {
     border: 2px dashed red;
-    height: 134px;
+    height: 200px;
 }
 
 /* fine terza section  */
 
 /* quarta section  */
 .square {
-    height: 183px;
-    width: 183px;
+    height: 340px;
+    width: 340px;
     flex-wrap: wrap;
 
     border: 2px dashed red;
@@ -226,3 +234,7 @@ section:nth-of-type(2) .container .text {
     padding: 70px 0px;
 }
 /* fine quarta section  */
+
+/* quinta section */
+
+/* fine quinta section */
