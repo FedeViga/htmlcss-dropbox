@@ -6,6 +6,10 @@
 }
 
 /* common */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .flex {
     display: flex;
 }
@@ -53,3 +57,39 @@ nav {
     
 }
 /* fine navbar */
+
+/* header */
+header {
+
+    background-color: #B4D0E7;
+    padding-top: 58px;
+    margin-bottom: 90px;
+}
+
+#hero {
+    max-width: 678px;
+    margin: auto;
+    padding-top: 60px;
+}
+
+/* test */
+#hero > * {
+    border: 2px dashed red;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 800;
+}
+
+#hero-description {
+    max-width: 204px;
+    border: 2px dashed red;
+
+}
+
+#hero-image {
+    width: 100%;
+    border: 2px dashed red;
+
+}
