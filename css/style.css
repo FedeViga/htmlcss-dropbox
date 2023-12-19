@@ -4,3 +4,52 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* common */
+.flex {
+    display: flex;
+}
+/* fine common */
+
+/* navbar */
+nav {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    padding: 0px 10px;
+
+}
+
+.link-bar {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 75px;
+    padding: 18px 0px;
+    text-align: center;
+    margin-right: 18px;
+}
+
+.links {
+    gap: 18px;
+}
+
+.links > *  {
+    padding: 18px 0px; 
+}
+
+.button {
+    
+    margin-left: 8px;
+    align-items: center;
+}
+
+.button div {
+    background-color: #0061FF;
+    color: white;
+    padding: 4px 8px;
+    
+}
+/* fine navbar */
