@@ -84,7 +84,9 @@ header {
 #hero > * {
     border: 2px dashed red;
 }
+/* fine header */
 
+/* prima section */
 h1 {
     font-size: 2.8em;
     font-weight: 800;
@@ -137,3 +139,25 @@ section:nth-of-type(1) .flex {
     height: 145px;
     margin-bottom: 80px;
 }
+/* fine prima section */
+
+/* seconda section */
+section:nth-of-type(2) .container {
+    height: 294px;
+    gap: 28px;
+    margin-bottom: 84px;
+}
+
+section:nth-of-type(2) .container > * {
+    /* test */
+    border: 2px dashed red;
+}
+section:nth-of-type(2) .container .image{
+    width: 100%;
+}
+
+section:nth-of-type(2) .container .text {
+    width: 200px;
+}
+
+/* fine seconda section */
