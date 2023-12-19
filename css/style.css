@@ -20,11 +20,17 @@ body {
 
     /* test */
     border: 2px dashed red;
-
-    h2 {
-        margin-bottom: 36px;
-    }
 }
+
+section {
+    margin-bottom: 84px;
+}
+
+h2 {
+    margin-bottom: 36px;
+}
+
+
 /* fine common */
 
 /* navbar */
@@ -87,6 +93,9 @@ header {
     padding-right: 10px;
 }
 
+#hero .flex {
+    gap: 18px;
+}
 /* test */
 #hero > * {
     border: 2px dashed red;
@@ -94,6 +103,10 @@ header {
 /* fine header */
 
 /* prima section */
+section:nth-of-type(1) {
+    margin-bottom: 84px;
+}
+
 h1 {
     font-size: 2.8em;
     font-weight: 800;
@@ -111,10 +124,10 @@ h1 {
 
 }
 
-
 .check {
     margin-bottom: 28px;
 }
+
 label {
     margin-right: 25px;
     
@@ -141,7 +154,6 @@ section:nth-of-type(1) .flex {
     /* test */
     border: 2px dashed red;
     height: 145px;
-    margin-bottom: 80px;
 }
 /* fine prima section */
 
@@ -149,7 +161,6 @@ section:nth-of-type(1) .flex {
 section:nth-of-type(2) .container {
     height: 294px;
     gap: 28px;
-    margin-bottom: 84px;
 }
 
 section:nth-of-type(2) .container > * {
@@ -189,7 +200,29 @@ section:nth-of-type(2) .container .text {
     height: 134px;
 }
 
-.clients {
-    margin-bottom: 80px;
-}
 /* fine terza section  */
+
+/* quarta section  */
+.square {
+    height: 183px;
+    width: 183px;
+    flex-wrap: wrap;
+
+    border: 2px dashed red;
+}
+
+.text {
+    flex-grow: 1;
+
+    border: 2px dashed red;
+}
+
+.square-small {
+    width: calc(100% / 2);
+    border: 2px dashed red;
+}
+
+#cta .container {
+    padding: 70px 0px;
+}
+/* fine quarta section  */
