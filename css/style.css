@@ -99,17 +99,18 @@ header {
     gap: 18px;
 }
 
-/* test */
-#hero > * {
+#hero-description {
+    width: 400px;
+
+    height:400px;
     border: 2px dashed red;
+
 }
 
-#hero-description {
-    width: 500px;
+#hero-image {
     flex-grow: 1;
+    border: 2px dashed red;
 
-    /* test */
-    height: 400px;
 }
 
 /* fine header */
@@ -118,18 +119,6 @@ header {
 h1 {
     font-size: 2.8em;
     font-weight: 800;
-}
-
-#hero-description {
-    max-width: 204px;
-    border: 2px dashed red;
-
-}
-
-#hero-image {
-    width: 100%;
-    border: 2px dashed red;
-
 }
 
 .check {
@@ -180,7 +169,7 @@ section:nth-of-type(2) .container .image{
 }
 
 section:nth-of-type(2) .container .text {
-    width: 300px;
+    width: 400px;
 }
 
 /* fine seconda section */
@@ -219,7 +208,7 @@ section:nth-of-type(2) .container .text {
     border: 2px dashed red;
 }
 
-.text {
+section:nth-of-type(4) .text {
     flex-grow: 1;
 
     border: 2px dashed red;
@@ -232,6 +221,7 @@ section:nth-of-type(2) .container .text {
 
 #cta .container {
     padding: 70px 0px;
+    justify-content: space-between;
 }
 /* fine quarta section  */
 
@@ -247,3 +237,33 @@ section:nth-of-type(5) .flex {
     width: 50px;
 }
 /* fine quinta section */
+
+/* footer */
+footer {
+    background-color: black;
+    color: white;
+    padding: 50px 10px;
+}
+
+.container-large {
+    max-width: 1200px;
+    margin: auto;
+   
+
+}
+
+footer .flex {
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+.footer-list > * {
+    margin-bottom: 10px;
+}
+
+.lang {
+    display: inline-block;
+    border-top: 2px solid gray;
+    padding-top: 30px;
+    padding-right: 10px;
+}
+/* fine footer */
