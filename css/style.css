@@ -17,6 +17,13 @@ body {
 .container {
     max-width: 570px;
     margin: auto;
+
+    /* test */
+    border: 2px dashed red;
+
+    h2 {
+        margin-bottom: 36px;
+    }
 }
 /* fine common */
 
@@ -104,9 +111,6 @@ h1 {
 
 }
 
-h2 {
-    margin-bottom: 36px;
-}
 
 .check {
     margin-bottom: 28px;
@@ -161,3 +165,31 @@ section:nth-of-type(2) .container .text {
 }
 
 /* fine seconda section */
+
+/* terza section  */
+.tools-container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 36px 28px;
+    margin-bottom: 100px;
+}
+
+.tools {
+    width: 100%;
+    max-width: calc(100% / 3 - 28px / 3 * 2);
+    flex-direction: column;
+
+    /* test */
+    height: 260px;
+    border: 2px dashed red;
+}
+
+.tools .image {
+    border: 2px dashed red;
+    height: 134px;
+}
+
+.clients {
+    margin-bottom: 80px;
+}
+/* fine terza section  */
