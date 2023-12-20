@@ -338,17 +338,16 @@ section:nth-of-type(2) .container .text p {
     width: 100%;
     max-width: calc(100% / 3 - 50px / 3 * 2);
     flex-direction: column;
-
-    /* test */
-    height: 440px;
-    border: 2px dashed red;
+}
+.tools .text .title {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 30px;
 }
 
-.tools .image {
-    border: 2px dashed red;
-    height: 200px;
+.tools .image img {
+    width: 100%;
 }
-
 /* fine terza section  */
 
 /* quarta section  */
