@@ -360,22 +360,77 @@ section:nth-of-type(4) {
     height: calc(100vw / 3);
     width: calc(100vw / 3);
     flex-wrap: wrap;
-
-    border: 2px dashed red;
 }
 
-h3 {
-    font-size: 36px;
-}
-section:nth-of-type(4) .text {
+.square.text {
     flex-grow: 1;
-
-    border: 2px dashed red;
+    background-color: #F5F5F5;
+    padding: 50px;
+    overflow: auto;
 }
 
+.square.text img {
+    width: 50%;
+    padding-bottom: 46px;
+}
+
+.square.text .gray-line {
+    width: 100px;
+    height: 3px;
+    background-color: #ECECED;
+    margin-bottom: 40px;
+}
+
+.square.text p {
+    margin-bottom: 50px;
+}
 .square-small {
     width: calc(100% / 2);
-    border: 2px dashed red;
+    height: calc(100% / 2);
+    justify-content: center;
+}
+
+.bg-green {
+    background-color: #A2D39B;
+    border: 16px solid #D1E9CD;
+}
+
+.bg-darkred {
+    background-color: #61082B;
+}
+
+.bg-azure {
+    background-color: #0093CE;
+}
+
+.bg-lightred {
+    background-color: #FF1C1C;
+}
+
+.bg-red {
+    background-color: #D5001F;
+}
+
+.bg-lightblue {
+    background-color: #B4D0E7;
+}
+
+.bg-blue {
+    background-color: #0D2481;
+}
+
+.bg-yellow {
+    background-color: #FFD830;
+}
+
+.square-small img {
+    width: 50%;
+    filter: invert(100%);
+}
+
+#florida {
+    height: auto;
+    align-self: center;
 }
 
 #cta {
@@ -386,19 +441,25 @@ section:nth-of-type(4) .text {
 
 #cta .container {
     padding: 130px 0px;
-    justify-content: space-between;
+}
+
+h3 {
+    width: 50%;
+    font-size: 36px;
+    color: #61082B;
 }
 
 .freetrial {
-    width: 320px;
+    width: 50%;
     text-align: center;
-    padding-left: 50px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-top: 10px;
 }
 
 .freetrial .button {
-    margin-top: 12px;
-
-    border: 2px dashed red;
+    background-color: white;
+    padding: 12px 50px;
 }
 /* fine quarta section  */
 
