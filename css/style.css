@@ -178,7 +178,7 @@ label {
     width: calc(100% / 3 - 50px / 3 * 2);
     border: 2px solid #DDDDDF;
     font-size: 14px;
-    padding-bottom: 50px;
+    padding-bottom: 36px;
 }
 
 .column-header {
@@ -261,17 +261,16 @@ label {
     padding-top: 5px;
 }
 .team {
-    width: 100%;
     border: 2px solid #DDDDDF;
 }
 
 .team .flex {
-    gap: 50px;
-    padding-bottom: 32px;
+    justify-content: space-between;
+    padding-bottom: 36px;
 }
 
 .team-main {
-    max-width: calc((100% / 3 - 50px / 3 * 2) * 2 + 50px);
+    width: calc((100% / 3 - 50px / 3 * 2) * 2 + 50px);
     padding-left: 30px;
 }
 
@@ -288,7 +287,7 @@ label {
 
 }
 
-.team .flex .button {
+.team .button {
     width: 300px;
     padding-left: 30px;
     padding-right: 30px;
@@ -298,7 +297,6 @@ label {
     display: inline-block;
     width: 100%;
     text-align: center;
-    margin-left: 0;
 }
 
 .team a.button-big {
@@ -323,7 +321,7 @@ section:nth-of-type(2) .container .text {
     padding-top: 60px;
 }
 
-section:nth-of-type(2) .container .text .title {
+section:nth-of-type(2) .container h3 {
     font-size: 22px;
     font-weight: 700;
     padding-bottom: 20px;
@@ -403,45 +401,20 @@ section:nth-of-type(4) {
 .square-small {
     width: calc(100% / 2);
     height: calc(100% / 2);
-    justify-content: center;
-}
-
-.bg-green {
-    background-color: #A2D39B;
-    border: 16px solid #D1E9CD;
-}
-
-.bg-darkred {
-    background-color: #61082B;
-}
-
-.bg-azure {
-    background-color: #0093CE;
-}
-
-.bg-lightred {
-    background-color: #FF1C1C;
-}
-
-.bg-red {
-    background-color: #D5001F;
-}
-
-.bg-lightblue {
-    background-color: #B4D0E7;
-}
-
-.bg-blue {
-    background-color: #0D2481;
-}
-
-.bg-yellow {
-    background-color: #FFD830;
+    justify-content: space-around;
+    transition: border-width .3s ease-in-out;
+    border: 0px solid rgba(255, 255, 255, .5);
 }
 
 .square-small img {
     width: 50%;
     filter: invert(100%);
+    transition: .3s;
+}
+
+.square-small.active,
+.square-small:hover {
+    border-width: 16px;
 }
 
 #florida {
@@ -459,10 +432,10 @@ section:nth-of-type(4) {
     padding: 130px 0px;
 }
 
-h3 {
+#cta h2 {
     width: 50%;
-    font-size: 36px;
     color: #61082B;
+    margin-bottom: 0px;
 }
 
 .freetrial {
