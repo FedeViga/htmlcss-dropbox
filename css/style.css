@@ -158,6 +158,20 @@ h1 {
     margin-bottom: 70px;
 }
 
+input[type=radio] {
+    appearance: none;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #555555;
+	border-radius: 50%;
+    position: relative;
+    top: 5px;
+}
+
+input[type=radio]:checked {
+    border: 5px solid #0061FF;
+}
+
 .check {
     margin-bottom: 50px;
 }
@@ -258,7 +272,7 @@ label {
 
 .column-footer .list .fa-solid {
     color: #0061FF;
-    padding-top: 5px;
+    padding-top: 3px;
 }
 .team {
     border: 2px solid #DDDDDF;
